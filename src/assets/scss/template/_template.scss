@@ -1,0 +1,226 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: $dark-blue;
+    
+    .container{
+        background: transparent;
+    }
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+
+table.button.align-right {
+  display: inline-block;
+  float: right;
+}
+
+.btn-text{
+    font-size: 15px;
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+.dark-blue{
+    background: $dark-blue;
+}
+
+.gallery{
+    font-size: 24px;
+    font-family: 'arial';
+    font-weight: bold;
+    color: $white;
+}
+
+.text-georgia{
+    font-size: 32px;
+    font-family: 'georgia';
+    font-style: italic;
+    color: $white;
+}
+
+.text-arial{
+    font-size: 48px;
+    font-family: 'arial';
+    font-weight: bold;
+    color: $white;
+}
+
+
+.btn-custom{
+    background: $dark-blue;
+}
+
+
+
+.btn-text-arial{
+    font-size: 18px;
+    font-family: 'arial';
+    font-weight: bold;
+    padding:0 10px;
+    line-height: 30px;
+    ;
+}
+/* ===== Second ===== */
+.second{
+    background: #ffffff;
+}
+
+.rounded-block{
+    border: 1px solid #e8e8e8;
+    border-radius: 100px;
+    width: 110px;
+    height: 110px;
+    position: relative;
+    
+    .screen{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        color: $dark-gray;
+    }
+    
+    .phone{
+        color: $dark-gray;
+        position: absolute;
+        top: 40px;
+        left: 45px;
+    }
+}
+
+.web{
+    font-size: 15px;
+    font-family: 'arial';
+    font-weight: bold;
+    color: $black-grey;
+    
+}
+
+.web-text{
+    color: $dark-gray;
+    font-size: 12px;
+    font-family: 'arial';
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.app{
+    font-size: 15px;
+    font-family: 'arial';
+    font-weight: bold;
+    color: $black-grey;
+}
+
+.app-text{
+    color: $dark-gray;
+    font-size: 12px;
+    font-family: 'arial';
+    font-weight: bold;
+    line-height: 25px;
+}
+
+/* ===== End of Second ===== */
+
+/* ===== Third ===== */
+.third{
+    background: #ffffff;
+    
+    &__heading{
+        color: $dark-blue;
+        font-size: 30px;
+        font-family: 'arial';
+        font-weight: bold;
+    }
+    
+    &__text{
+        color: $dark-gray;
+        font-size: 16px;
+        font-family: 'arial';
+        font-weight: bold;
+    }
+}
+/* ===== End of Third ===== */
+
+/* ===== Footer ===== */
+
+.footer{
+    background: #ffffff;
+    
+    &__text-1{
+        color: $dark-gray;
+        font-size: 12px;
+        font-family: 'arial';
+        font-weight: bold;
+    }
+    
+    &__text-2{
+        
+        margin: -15px;
+        color: $dark-gray;
+        font-size: 12px;
+        font-family: 'arial';
+        font-weight: bold;
+    }
+    
+    .facebook,.twitter,.gmail,.linkedin,.pinterest{
+        display: inline-block;
+    }
+}
+
+/* ===== End of Footer ===== */
+
+.header row{
+    border: 1px solid red;
+}
