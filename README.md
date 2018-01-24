@@ -1,3 +1,5 @@
+# Hello everyone, my name is Valerii.I'm markup developer and just tryin' to implement email markup by using awesome framework - Zurb Foundation for Emails v2.Below you can see the whole process of installing all needed packages in order to start markuping.
+
 # Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
