@@ -126,17 +126,30 @@ table.button.align-right {
     position: relative;
     
     .screen{
-        position: absolute;
+        display: block;
         top: 40px;
-        left: 40px;
+        position: relative;
+        width: 32px;
+        height: 28px;
         color: $dark-gray;
+    }
+    
+    .image-wrapp{
+        position: relative;
+        top: 0;
+        max-height: 0;
+        overflow: visible;
+        display: inline-block;
+        z-index: 100;
     }
     
     .phone{
         color: $dark-gray;
-        position: absolute;
+        width: 20px;
+        height: 32px;
+        display: block;
         top: 40px;
-        left: 45px;
+        position: relative;
     }
 }
 
