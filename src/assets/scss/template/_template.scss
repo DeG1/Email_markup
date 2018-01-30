@@ -51,7 +51,7 @@ table.button.twitter table td {
   border-color: #1daced;
 }
 
-table.button.google table td {
+table.button.custom table td {
   background: #DB4A39 !important;
   border-color: #DB4A39;
 }
@@ -62,10 +62,25 @@ table.button.google table td {
 
 
 
-table.button.align-right {
-  display: inline-block;
-  float: right;
+
+.align-right {
+  text-align: right;
 }
+
+.align-right table{
+    display: inline;
+    text-align: right;
+}
+
+table.button.rounded.transparent table td{
+    background: transparent;
+}
+
+table.button.rounded.transparent table td a{
+    border: 1px solid #ffffff;
+    border-radius: 120px;
+}
+
 
 .btn-text{
     font-size: 15px;
@@ -227,8 +242,12 @@ table.button.align-right {
         font-weight: bold;
     }
     
-    .facebook,.twitter,.gmail,.linkedin,.pinterest{
-        display: inline-block;
+    // .facebook,.twitter,.gmail,.linkedin,.pinterest{
+    //     display: inline-block;
+    // }
+
+    table.menu td.menu-item, table.menu th.menu-item{
+        padding: 3px;
     }
 }
 
